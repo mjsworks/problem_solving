@@ -1,0 +1,13 @@
+# 791A_Bear and Big Brother
+# Solution
+
+limak, bob = map(int, input().split())
+
+count = 0
+
+while limak<=bob:
+    limak=limak*3
+    bob=bob*2
+    count+=1
+
+print(count)
