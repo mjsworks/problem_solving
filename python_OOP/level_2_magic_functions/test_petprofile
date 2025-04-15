@@ -1,0 +1,8 @@
+# test_petprofile.py
+
+from petprofile import Petprofile
+
+pet1 = Petprofile("Luna", 3, "cat")
+
+print(pet1)
+print(repr(pet1))
